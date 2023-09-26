@@ -1,64 +1,113 @@
-# Challenge ONE | Java | Back-end | Hotel Alura
+<p align="center">
+  <img src="src/imagens/aH-150px.png" />  
+</p>  
+<h1 align="center">  Hotel Alura  </h1>
+<p align="center">
+  <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
+</p>  
 
-<p align="center" >
-     <img width="400" heigth="400" src="https://user-images.githubusercontent.com/101413385/173164615-192ca98a-1a44-480e-9229-9f82f456eec8.png">
+### Tópicos
 
+:small_blue_diamond: [Sobre o projeto](#Sobre-o-projeto-open_file_folder)
+
+:small_blue_diamond: [Funcionalidades](#Funcionalidades)
+
+:small_blue_diamond: [Layout e deploy](#Layout-da-aplicação-mag_right)
+
+:small_blue_diamond: [Modelo Conceitual](#Modelagem-de-dados)
+
+:small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
+
+> Status do Projeto: :heavy_check_mark: (Concluído)
+
+# Sobre o projeto :open_file_folder:
+
+O Hotel alura é um projeto que desenvolvi no programa da [ONE](https://www.oracle.com/br/education/oracle-next-education/) para atestar alguns conhecimentos sobre MVC, banco de dados (JDBC) e CRUD. 
+
+<p>
+O sistema consiste em um aplicação de desktop que realiza cadastro, busca(recuperação de dados), autulização e deleção de reservas e hóspedes.
 </p>
 
----
-## Este repositório contém o código-fonte para resolver o desafio de criar um aplicativo CRUD usando JDBC e Swing. O objetivo do desafio é desenvolver um aplicativo que permita realizar operações CRUD em um banco de dados relacional.
+## Funcionalidades
 
-## 🖥️ Tecnologias Utilizadas:
+:heavy_check_mark: Listagem de reservas e hóspedes.
 
-- Java
-- Eclipse
-- MySql
-- Biblioteca JCalendar
-- Plugin WindowBuilder </br>
+:heavy_check_mark: Filtra os reservas por id.
 
----
-## ⚠️ Importante! ⚠️
+:heavy_check_mark: Filtra os hóspedes por sobrenome.
 
-☕ Use o Java na versão 8 ou superior para ter compatibilidade.
-</br></br>
-📝 Recomendamos utilizar o editor Eclipse para compatibilidade da interface gráfica. </br></br>
+:heavy_check_mark: Cadastro de hóspedes e reservas.
 
-## Videos de resolução
+:heavy_check_mark: Atualização de hóspedes e reservas.
 
-Para te ajudar ainda mais nessa jornada de aprendizado, criamos esses vídeos de soluções com as partes estratégicas para realizar esse desafio. Lembre-se que esta é apenas uma das infinitas formas de realizar o desafio, aproveite para estudar os códigos e também compartilhar entre vocês suas resoluções e opiniões sobre o seu projeto.
+:heavy_check_mark: Deleção de hóspedes e reservas.
 
-- [Faça uma conexão com o banco de dados e salve seus registros](https://www.youtube.com/watch?v=xSvhuCukFp0)
-- [Mostrar registros através do programa](https://youtu.be/QHC5IS-E1KY)
----
-
-## 📬 Entrega
-
-### Como incluir meu projeto com a "#" do desafio?
-
-1) Tenha o <strong>Fork</strong> do projeto em seu repositório no Github.
-2) Utilize o tópico **#challengeonealurahotelbr4**. Vá na aba esquerda do seu projeto na seção <em>About</em> e clique na engrenagem de configuração selecione o campo **topics** e insira a etiqueta **challengeonealurahotelbr4**.
+# Layout da Aplicação :mag:
 
 
-![gif-vitrine](https://user-images.githubusercontent.com/91544872/153601047-62aee6cb-e3cf-42b3-92c3-7130c996113f.gif)
+- Login:
 
-### Como faço a entrega final do meu Projeto?
+  ![Login](/src/imagens/loginmd.png)
 
-4) Preencha o formulário a seguir com seus dados pessoais, juntamente com o link do seu repositório.🔹 [Link para o formulário](https://lp.alura.com.br/alura-latam-entrega-challenge-one-portugues-back-end)
+- Tela usuário 
 
-<p align="center" >
-     <img width="700" heigth="700" src="https://user-images.githubusercontent.com/53662778/225652998-b9e8dfe7-9064-4997-a91f-1ba772d2f314.png">
-</p>
+  ![tela usuario](/src/imagens/usuariomd.png)
+
+- CRUD reservas
+
+  ![Crud reservas](/src/imagens/soreservamd.png)
+
+- CRUD hóspedes
+
+  ![Crud hóspede](/src/imagens/sohospedemd.png)
+
+- Sistema de busca  
+
+  ![Sistema de busca](/src/imagens/sobuscamd.png)
+
+- Aprensentação da aplicação:
+
+![Gif de aprensentação](/src/imagens/challenge-one-hotel.gif)
+
+## Modelagem de dados
+
+- Modelo de dados
+
+![Modelo de dados](/src/imagens/modelagembd.png)
 
 
-5) Vá para seu e-mail e resgate sua badge conquistada por encerrar mais um desafio no Projeto ONE! 🏆
+## Linguagens, dependencias e libs utilizadas :books:
+- [JAVA](https://www.java.com/pt-BR/)
+- [JDBC](https://spring.io/projects/spring-data-jpa) 
+- [JCalendar](https://toedter.com/jcalendar/)
+- [MySql](https://www.mysql.com/)
+- [WindowBuilder](https://www.eclipse.org/windowbuilder/)
+- [c3p0](https://www.mchange.com/projects/c3p0/)
 
-6) Não se esqueça de colocar um link ou vídeo de seu projeto no Linkedin! Marque com a #Oracle #AluraLatam 🏁
+
+Pré-requisitos: 
+
+:warning: [Java](https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR)
+
+### Acessar o terminal / CLI
+```bash
+# clonar repositório
+https://github.com/Damhafi/projeto-hotel-alura.git
+```
+```bash
+# entrar na pasta do projeto challenge-hotel-alura
+cd challenge-hotel-alura
+```
+
+# Autores
+
+| [<img src="https://avatars.githubusercontent.com/u/48777873?v=4" width=115><br><sub>Yusuf Milla</sub>](https://github.com/Damhafi) |
+| :---: | 
 
 
-🧡 <strong>Oracle</strong></br>
-<a href="https://www.linkedin.com/company/oracle/" target="_blank">
-<img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
-💙 <strong>Alura Latam</strong></br>
-<a href="https://www.linkedin.com/company/alura-latam/mycompany/" target="_blank">
-<img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+## Licença
+
+The [MIT License](/LICENSE)(MIT)
+
+Copyright :copyright: 2023 - Hotel Alura
