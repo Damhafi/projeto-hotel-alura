@@ -89,15 +89,6 @@ Pré-requisitos:
 
 :warning: [Java](https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR)
 
-### Acessar o terminal / CLI
-```bash
-# clonar repositório
-https://github.com/Damhafi/projeto-hotel-alura.git
-```
-```bash
-# entrar na pasta do projeto challenge-hotel-alura
-cd challenge-hotel-alura
-```
 
 # Autores
 
